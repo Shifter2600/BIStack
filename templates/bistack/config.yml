@@ -1,6 +1,6 @@
-name: ElasticsearchKibana6
+name: Elasticsearch6.2.1
 description: |
-  Elasticsearch 6 and Kibana 6
+  Elasticsearch 6
 version: v0.0.1
 category: "BIStack Projects"
 uuid: elk6-0
