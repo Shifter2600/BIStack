@@ -1,0 +1,14 @@
+collector_inputs='udp {
+  port => 5000
+  codec => "json"
+}
+'
+indexer_filters=
+indexer_outputs='elasticsearch {
+  hosts => ["elasticsearch.rancher.internal:9200"]
+}
+stdout {
+  codec => rubydebug
+}
+'
+elasticsearch_link=

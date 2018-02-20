@@ -1,0 +1,6 @@
+name: Logstash6
+description: |
+  Logstash 6
+version: v0.0.1
+category: "BIStack Projects"
+uuid: elk6-0
