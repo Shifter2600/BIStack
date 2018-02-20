@@ -21,7 +21,7 @@ nginx-proxy:
     io.rancher.sidekicks: nginx-proxy-conf,kibana6
   external_links:
     - ${elasticsearch_source}:elasticsearch
-kibana4:
+kibana6:
   restart: always
   tty: true
   image: kibana:6.2.1
