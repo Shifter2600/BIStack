@@ -1,0 +1,5 @@
+NAMESPACE: default
+REPLICAS: '1'
+http_port: '80'
+https_port: '443'
+admin_port: '8000'
